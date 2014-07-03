@@ -38,10 +38,10 @@ The service provider comes with PHPUnit tests and can be run by doing a `./vendo
 See more documentation and examples at the spid-php-sdk page (maintained by Schibsted Payment) at [github.com/schibsted/spid-php-examples][2] and [techdocs.spid.no][3] (access for SPiD customers only).
 
 ## License
-License
-Copyright (c) 2014, Kristoffer Brabrand kristoffer@brabrand.no
+Licensed under the MIT License, see LICENSE
 
-Licensed under the MIT License
+## Credits
+Authored by Kristoffer Brabrand @ VG
 
 [1]: http://packagist.org/packages/vgnett/silex-spid
 [2]: https://github.com/schibsted/spid-php-examples/
