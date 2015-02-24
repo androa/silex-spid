@@ -4,7 +4,7 @@
     "require": {
         "php": ">=5.3.3",
         "silex/silex": "~1.0",
-        "schibsted/sdk-php": "dev-master"
+        "schibsted/sdk-php": "~2.4"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",

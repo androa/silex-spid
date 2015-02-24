@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "60c2c6ed4525806599dd8b51cf5550c5",
+    "hash": "2e04c03b475e2c099ed68225097be90f",
     "packages": [
         {
             "name": "pimple/pimple",
@@ -92,7 +92,7 @@
         },
         {
             "name": "schibsted/sdk-php",
-            "version": "dev-master",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/schibsted/sdk-php.git",
@@ -1557,9 +1557,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "schibsted/sdk-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
