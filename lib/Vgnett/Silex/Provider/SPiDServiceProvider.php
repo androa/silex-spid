@@ -1,17 +1,18 @@
 <?php
-
 namespace Vgnett\Silex\Provider;
 
-use Silex\Application,
-    Silex\ServiceProviderInterface;
-
+use Silex\Application;
+use Silex\ServiceProviderInterface;
 use VGS_Client;
 
 class SPiDServiceProvider implements ServiceProviderInterface
 {
-    public function boot(Application $app) { }
+    public function boot(Application $app)
+    {
+    }
 
-    public function register(Application $app) {
+    public function register(Application $app)
+    {
         $app['spid.clientId']         = 'foobar';
         $app['spid.clientSecret']     = 'barfoo';
         $app['spid.clientSignSecret'] = 'barfoo';
@@ -22,7 +23,7 @@ class SPiDServiceProvider implements ServiceProviderInterface
         $app['spid.https']            = true;
         $app['spid.apiVersion']       = 2;
 
-        $app["spid"] = $app->share(
+        $app['spid'] = $app->share(
             function (Application $app) {
                 $client = new VGS_Client(array(
                     'client_id'     => $app['spid.clientId'],
