@@ -13,7 +13,7 @@
 >
     <testsuites>
         <testsuite name="SPiD service provider test suite">
-            <directory>./tests/VgnettTest</directory>
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
 </phpunit>
