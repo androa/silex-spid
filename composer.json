@@ -15,6 +15,10 @@
         {
             "name": "Kristoffer Brabrand",
             "email": "kristoffer@brabrand.no"
+        },
+        {
+            "name": "André Roaldseth",
+            "email": "andrer@vg.no"
         }
     ],
     "autoload": {
