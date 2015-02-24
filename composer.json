@@ -19,7 +19,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vgnett\\Silex\\Provider\\": "lib/",
+            "Vgnett\\Silex\\Provider\\": "src/",
             "VgnettTest\\Silex\\Provider\\": "tests/"
         }
     }
