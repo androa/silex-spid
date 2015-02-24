@@ -1,9 +1,9 @@
 <?php
-
 namespace VgnettTest\Silex\Provider;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
+use VGS_Client;
 use Vgnett\Silex\Provider\SPiDServiceProvider;
 
 class SPiDServiceProviderTest extends \PHPUnit_Framework_TestCase
@@ -15,7 +15,8 @@ class SPiDServiceProviderTest extends \PHPUnit_Framework_TestCase
         }
     }
 
-    public function testRegister() {
+    public function testRegister()
+    {
         $spidConfig = array(
             'spid.clientId'         => 'foobar',
             'spid.clientSecret'     => 'barfoo',
@@ -32,7 +33,7 @@ class SPiDServiceProviderTest extends \PHPUnit_Framework_TestCase
 
         $app->register(new SPiDServiceProvider(), $spidConfig);
 
-        $app->get('/', function() use($app) {
+        $app->get('/', function() use ($app) {
             $app['spid'];
         });
 
