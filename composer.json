@@ -18,9 +18,9 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Vgnett\\Silex\\Provider": "lib",
-            "VgnettTest\\Silex\\Provider": "tests"
+        "psr-4": {
+            "Vgnett\\Silex\\Provider\\": "src/",
+            "VgnettTest\\Silex\\Provider\\": "tests/"
         }
     }
 }
