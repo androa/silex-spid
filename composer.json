@@ -23,12 +23,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vgnett\\Silex\\Provider\\": "src/"
+            "Vgno\\Silex\\Provider\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VgnettTest\\Silex\\Provider\\": "tests/"
+            "Vgno\\Silex\\Provider\\": "tests/"
         }
     }
 }

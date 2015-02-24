@@ -1,10 +1,10 @@
 <?php
-namespace VgnettTest\Silex\Provider;
+namespace Vgno\Silex\Provider;
 
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Request;
 use VGS_Client;
-use Vgnett\Silex\Provider\SPiDServiceProvider;
+use Vgno\Silex\Provider\SPiDServiceProvider;
 
 class SPiDServiceProviderTest extends \PHPUnit_Framework_TestCase
 {

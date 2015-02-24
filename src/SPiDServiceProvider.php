@@ -1,5 +1,5 @@
 <?php
-namespace Vgnett\Silex\Provider;
+namespace Vgno\Silex\Provider;
 
 use Silex\Application;
 use Silex\ServiceProviderInterface;
