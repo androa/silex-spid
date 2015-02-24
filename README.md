@@ -5,7 +5,7 @@ Service provider making the SPiD PHP SDK available to your Silex application.
 [![Build Status](https://travis-ci.org/vgno/silex-spid.svg?branch=master)](https://travis-ci.org/vgno/silex-spid)
 
 ## Installation
-Add `"vgno/silex-spid": "XXX"` to the composer.json file inside your project and do a `composer install`. Check [Composer][1] for the latest available version.
+Add `"vgno/silex-spid-provider": "XXX"` to the composer.json file inside your project and do a `composer install`. Check [Composer][1] for the latest available version.
 
 ## Setup instructions
 Register the SPiD service provider in your Silex app like this;
