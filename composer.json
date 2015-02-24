@@ -1,5 +1,5 @@
 {
-    "name": "vgno/silex-spid",
+    "name": "vgno/silex-spid-provider",
     "description": "SPiD service provider for Silex",
     "require": {
         "php": ">=5.3.3",
